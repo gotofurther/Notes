@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "46f831ae425b70b3",
+        "id": "3e27781490135470",
         "type": "tabs",
         "children": [
           {
-            "id": "6351a940d31dd34f",
+            "id": "da5aecf577b667e2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,8 +161,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "43e2c3f7aced859f",
+  "active": "da5aecf577b667e2",
   "lastOpenFiles": [
+    "Java_Note/从前慢-java基础篇章1.md",
     "stm32/image/stm/1739867771248.png",
     "stm32/image/stm/1739784727448.png",
     "stm32/image/stm/1739784299304.png",
@@ -184,7 +185,6 @@
     "Vim",
     "STM32.md",
     "Python.md",
-    "Linux/image/Linux/1740795336923.png",
     "Linux/image/Linux",
     "Linux/Linux.md",
     "Linux/image",
@@ -192,7 +192,6 @@
     "Javaweb.md",
     "Java_Note/从前慢-Java新特性.md",
     "Java_Note/从前慢-java基础篇章2.md",
-    "Java_Note/从前慢-java基础篇章1.md",
     "Java_Note/Java.md",
     "Git_notes/readme.md",
     "Markdown_notes.md",
