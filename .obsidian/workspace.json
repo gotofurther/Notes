@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "1b6d0685ccbfd5bc",
+    "id": "2e2cbfeae3a3e0f5",
     "type": "split",
     "children": [
       {
-        "id": "f2f5f46e3d878ec2",
+        "id": "46f831ae425b70b3",
         "type": "tabs",
         "children": [
           {
-            "id": "82df0ca75f7cb266",
+            "id": "6351a940d31dd34f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javaweb.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Javaweb"
+              "title": "新标签页"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "db9339355cf7f339",
+    "id": "6014edea47f1f1f0",
     "type": "split",
     "children": [
       {
-        "id": "4b82fbe7c4a8998a",
+        "id": "83df39836b2ea9cd",
         "type": "tabs",
         "children": [
           {
-            "id": "1e36e2c0ed955549",
+            "id": "43e2c3f7aced859f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "c72d694a8a3b5aed",
+            "id": "cb1592bb749c30d0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "478fc2211b05fb17",
+            "id": "f4dc35d253338e4d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "77e94e5d4e1d8b19",
+    "id": "25e83d379fdcd9ce",
     "type": "split",
     "children": [
       {
-        "id": "560f1fa7901ac53b",
+        "id": "17a64d0e3e5fec15",
         "type": "tabs",
         "children": [
           {
-            "id": "6e9c346bd2ee79e3",
+            "id": "c78a2c8b39ab6d51",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Linux 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "aa6b507ff2994723",
+            "id": "7821d6f1143bf6d3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Linux 的出链列表"
+              "title": "出链"
             }
           },
           {
-            "id": "1624ea4b4a07f888",
+            "id": "21d1cad2c1423bc7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +131,17 @@
             }
           },
           {
-            "id": "a45cd7c2df0474a8",
+            "id": "2752d3e67b86e9fd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -168,36 +161,41 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "82df0ca75f7cb266",
+  "active": "43e2c3f7aced859f",
   "lastOpenFiles": [
+    "stm32/image/stm/1739867771248.png",
+    "stm32/image/stm/1739784727448.png",
+    "stm32/image/stm/1739784299304.png",
+    "stm32/image/stm/1739867777210.png",
+    "stm32/image/stm/1739802612193.png",
+    "stm32/image/stm/1739784351787.png",
+    "stm32/image/stm/1739780262395.png",
+    "stm32/image/stm/1739780173358.png",
+    "stm32/image/stm",
+    "stm32/stm.md",
+    "stm32/image",
+    "stm32",
     "Vim/image/Vim/1740538628706.png",
     "Vim/image/Vim/1740399185738.png",
-    "Git_notes.md",
-    "Javaweb.md",
-    "Markdown_notes.md",
-    "Python.md",
-    "STM32.md",
-    "Linux/Linux.md",
-    "stm32/stm.md",
     "Vim/image/Vim",
     "Vim/Vim.md",
     "Vim/Test.txt",
     "Vim/image",
     "Vim",
-    "stm32/image/stm/1739867777210.png",
-    "stm32/image/stm/1739867771248.png",
-    "stm32/image/stm/1739784727448.png",
-    "stm32/image/stm/1739802612193.png",
-    "stm32/image/stm/1739784299304.png",
-    "stm32/image/stm/1739784351787.png",
-    "stm32/image/stm/1739780262395.png",
-    "stm32/image/stm/1739780173358.png",
-    "stm32/image/stm",
-    "stm32/image",
-    "stm32",
+    "STM32.md",
+    "Python.md",
+    "Linux/image/Linux/1740795336923.png",
     "Linux/image/Linux",
+    "Linux/Linux.md",
     "Linux/image",
     "Linux",
-    "Java_Note/从前慢-java基础篇章1.md"
+    "Javaweb.md",
+    "Java_Note/从前慢-Java新特性.md",
+    "Java_Note/从前慢-java基础篇章2.md",
+    "Java_Note/从前慢-java基础篇章1.md",
+    "Java_Note/Java.md",
+    "Git_notes/readme.md",
+    "Markdown_notes.md",
+    "Git_notes.md"
   ]
 }
