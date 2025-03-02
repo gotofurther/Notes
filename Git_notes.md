@@ -55,6 +55,8 @@
    git push origin 分支名
    ```
    >把本地代码同步上传到远程仓库
+   * 删除远程仓库分支名
+   > git push origin --delete 分支名
 * 克隆远程仓库 
    ```git
    git clone 仓库地址 
