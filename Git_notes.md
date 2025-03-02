@@ -75,11 +75,21 @@
    git branch 分支名 
    ```
    >为不同功能开发创建独立章节，不干扰主线内容。
+   * 删除分支:
+      * 由于分支合并后, 被合并的分支不会被被删除, 需要我们手动删除
+      > git branch -d [分支名]
+      * 若没有合并就删除分支, 则将小d变大D, 强制删除
+      > git branch -D [分支名]
 * 切换分支
    ```git
    git checkout 分支名 
    ```
    >从一个分支切换到另一个分支
+   * 切换到已有的分支:
+      > git checkout branch_name
+   * 创建并切换到新的分支:
+      > git checkout -b new_branch_name
+      
 
 # 第三部分：Git 常⽤命令及 SSH 配置
  SSH：安全认证和便捷连接 🔒
