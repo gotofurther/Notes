@@ -329,3 +329,47 @@
           * Ctrl + e, 跳到命令结尾
           * Ctrl + 键盘左键, 向左跳一个单词
           * Ctrl + 键盘右键, 向右跳一个单词
+        * 清屏:
+          * 通过快捷键Ctrl+l, 可以清空终端内容
+          * 或通过命令clear得到同样效果
+      * 软件安装
+        > yum: RPM包软件管理器, 用于自动化安装配置Linux软件, 并可以自动解决依赖问题, RPM是Linux系统安装包的格式
+        > yun [-y] [install | remove | search] 软件名称
+        * 选项: -y, 自动确认, 无需手动确认安装或卸载过程
+        * install: 安装
+        * remove: 卸载
+        * search: 搜索
+        > yum命令需要root权限, 可以su切换到root, 或使用sudo提权
+        > yum命令需要联网 
+        * apt命令(扩展):
+          > 就Linux系统命令, 前面的都是通用的, 但是就软件安装, CentOS和Ubuntu是使用不同的包管理器, 例如CentOs是使用.rpm文件, 采用yum进行安装, 而ubuntu系统是使用.deb文件, 采用apt进行安装
+          > apt [-y] [install | remove | search] 软件名称
+          >用法与yum一致, 同样要采用root权限
+      * systemctl:
+        > Linux系统很多软件(内置或第三方)均支持使用systemctl命令控制:启动, 停止, 开机自启. 能够被systemctl管理的软件, 一般也称之为: 服务
+        > systemctl start | stop | status | enable| disable 服务名
+        * start: 启动
+        * stop: 关闭
+        * status: 查看状态
+        * enable: 开启开机自启
+        * disable: 关闭开机自启
+      * ln命令:
+        > 在系统中创建软链接, 可以将文件, 文件夹链接到其他位置, 链接只是一个指向, 并不是物理移动, 类似于Windows系统中的快捷方式
+        > ln -s 参数1 参数2
+        * -s选项, 创建软链接
+        * 参数1: 被链接的文件或文件夹
+        * 参数2: 要链接去的目的地
+      * 日期和地区:
+        * date命令:
+          > 通过date命令可以在命令行中查看系统时间
+          > date [-d] [+格式化字符串]
+          * -d: 按照给定的字符串显示日期, 一般用于日期计算
+          * 格式化字符串: 通过特定的字符串标记, 来控制显示的日期格式
+            * %Y :  年
+            * %y :  年份后面两位数字
+            * %m :  月份
+            * %d :  日
+            * %H :  小时
+            * %M :  分钟
+            * %S :  秒
+            * %s :  自1970-01-01 00:00:00 UTC到现在的秒数
