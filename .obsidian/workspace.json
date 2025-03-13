@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3e27781490135470",
+        "id": "82dd35e29d3d264a",
         "type": "tabs",
         "children": [
           {
-            "id": "da5aecf577b667e2",
+            "id": "ee4a126675f4a28c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux"
             }
           }
         ]
@@ -37,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 215.5
   },
   "right": {
     "id": "25e83d379fdcd9ce",
@@ -161,40 +165,41 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "da5aecf577b667e2",
+  "active": "ee4a126675f4a28c",
   "lastOpenFiles": [
+    "STM32.md",
+    "Python.md",
+    "Markdown_notes.md",
+    "Javaweb.md",
+    "Git_notes.md",
+    "stm32/stm.md",
+    "Operating System/Learning Note.md",
+    "Operating System/image/1741871113858.png",
+    "Operating System/image/1741854640801.png",
+    "Operating System/image/1741854624785.png",
+    "Operating System/image/1741853881218.png",
+    "Operating System/image/1741788011213.png",
+    "Operating System/image/LearningNote/1741871113858.png",
+    "Operating System/image/LearningNote/1741854640801.png",
+    "Operating System/image/LearningNote/1741854624785.png",
+    "Operating System/image/LearningNote/1741788011213.png",
     "Java_Note/从前慢-java基础篇章1.md",
     "stm32/image/stm/1739867771248.png",
-    "stm32/image/stm/1739784727448.png",
-    "stm32/image/stm/1739784299304.png",
-    "stm32/image/stm/1739867777210.png",
-    "stm32/image/stm/1739802612193.png",
-    "stm32/image/stm/1739784351787.png",
-    "stm32/image/stm/1739780262395.png",
-    "stm32/image/stm/1739780173358.png",
     "stm32/image/stm",
-    "stm32/stm.md",
     "stm32/image",
     "stm32",
-    "Vim/image/Vim/1740538628706.png",
-    "Vim/image/Vim/1740399185738.png",
     "Vim/image/Vim",
     "Vim/Vim.md",
     "Vim/Test.txt",
     "Vim/image",
     "Vim",
-    "STM32.md",
-    "Python.md",
     "Linux/image/Linux",
     "Linux/Linux.md",
     "Linux/image",
     "Linux",
-    "Javaweb.md",
     "Java_Note/从前慢-Java新特性.md",
     "Java_Note/从前慢-java基础篇章2.md",
     "Java_Note/Java.md",
-    "Git_notes/readme.md",
-    "Markdown_notes.md",
-    "Git_notes.md"
+    "Git_notes/readme.md"
   ]
 }
