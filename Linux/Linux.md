@@ -382,3 +382,9 @@
             * %M :  分钟
             * %S :  秒
             * %s :  自1970-01-01 00:00:00 UTC到现在的秒数
+          * 修改Linux时区:
+            * 使用root命令
+            ```Linux
+            rm -f /etc/localtime
+            cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+            ```
