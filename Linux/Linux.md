@@ -388,3 +388,12 @@
             rm -f /etc/localtime
             cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
             ```
+            * ntp程序:
+              > 可以通过ntp程序自动校验程序
+              * 安装: yum -y install ntp
+              * 开机自启:
+                * systemctl start ntpd
+                * systemctl enable ntpd
+              * 手动校准:
+                * ntpdate -u ntp.aliyun.com
+                
