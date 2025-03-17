@@ -153,6 +153,16 @@ No. 2 / 4
 
 ### **Git**分支管理
 1. 创建与合并分支:
+   * 查看分支：git branch
+   * 创建分支：git branch <name>
+   * 切换分支：git checkout <name>或git switch <name>
+   * 创建+切换分支：git checkout -b <name>或git switch -c <name>
+   * 合并某分支到当前分支：git merge <name>
+   * 删除分支：git branch -d <name> (-D强行删除)
+   * 查看分支合并图：git log --graph
+   * 使用git stash可以将当前内容“储藏”起来，然后去修复bug，修复后，再git stash pop，回到工作现场。
+   * 在master分支上修复的bug，想要合并到当前dev分支，可以用git cherry-pick <commit>把bug提交的修改“复制”到当前分支，避免重复劳动。
+
 
 
 ### **Git**远程仓库操作
