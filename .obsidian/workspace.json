@@ -4,6 +4,7 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "46f831ae425b70b3",
         "type": "tabs",
         "children": [
@@ -15,6 +16,23 @@
               "state": {},
               "icon": "lucide-file",
               "title": "新标签页"
+=======
+        "id": "82dd35e29d3d264a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee4a126675f4a28c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux"
+>>>>>>> Notes
             }
           }
         ]
@@ -37,7 +55,11 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
+<<<<<<< HEAD
                 "autoReveal": false
+=======
+                "autoReveal": true
+>>>>>>> Notes
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -74,7 +96,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 300
+=======
+    "width": 215.5
+>>>>>>> Notes
   },
   "right": {
     "id": "25e83d379fdcd9ce",
@@ -161,9 +187,48 @@
       "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "6351a940d31dd34f",
   "lastOpenFiles": [
     "Markdown_notes.md",
     "Git_notes.md"
+=======
+  "active": "ee4a126675f4a28c",
+  "lastOpenFiles": [
+    "STM32.md",
+    "Python.md",
+    "Markdown_notes.md",
+    "Javaweb.md",
+    "Git_notes.md",
+    "stm32/stm.md",
+    "Operating System/Learning Note.md",
+    "Operating System/image/1741871113858.png",
+    "Operating System/image/1741854640801.png",
+    "Operating System/image/1741854624785.png",
+    "Operating System/image/1741853881218.png",
+    "Operating System/image/1741788011213.png",
+    "Operating System/image/LearningNote/1741871113858.png",
+    "Operating System/image/LearningNote/1741854640801.png",
+    "Operating System/image/LearningNote/1741854624785.png",
+    "Operating System/image/LearningNote/1741788011213.png",
+    "Java_Note/从前慢-java基础篇章1.md",
+    "stm32/image/stm/1739867771248.png",
+    "stm32/image/stm",
+    "stm32/image",
+    "stm32",
+    "Vim/image/Vim",
+    "Vim/Vim.md",
+    "Vim/Test.txt",
+    "Vim/image",
+    "Vim",
+    "Linux/image/Linux",
+    "Linux/Linux.md",
+    "Linux/image",
+    "Linux",
+    "Java_Note/从前慢-Java新特性.md",
+    "Java_Note/从前慢-java基础篇章2.md",
+    "Java_Note/Java.md",
+    "Git_notes/readme.md"
+>>>>>>> Notes
   ]
 }
